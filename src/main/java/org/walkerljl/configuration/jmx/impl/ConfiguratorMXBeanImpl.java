@@ -1,8 +1,8 @@
-package org.walkerljl.toolkit.configuration.jmx.impl;
+package org.walkerljl.configuration.jmx.impl;
 
-import org.walkerljl.toolkit.configuration.ConfiguratorException;
-import org.walkerljl.toolkit.configuration.impl.RemotableConfigurator;
-import org.walkerljl.toolkit.configuration.jmx.ConfiguratorMXBean;
+import org.walkerljl.configuration.impl.RemotableConfigurator;
+import org.walkerljl.configuration.ConfiguratorException;
+import org.walkerljl.configuration.jmx.ConfiguratorMXBean;
 import org.walkerljl.toolkit.standard.exception.AppException;
 
 /**

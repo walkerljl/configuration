@@ -1,10 +1,10 @@
-package org.walkerljl.toolkit.configuration.impl.managed;
+package org.walkerljl.configuration.impl.managed;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.walkerljl.toolkit.configuration.impl.AbstractConfiguratorProvider;
-import org.walkerljl.toolkit.configuration.impl.ConfiguratorProvider;
+import org.walkerljl.configuration.impl.AbstractConfiguratorProvider;
+import org.walkerljl.configuration.impl.ConfiguratorProvider;
 import org.walkerljl.toolkit.logging.Logger;
 import org.walkerljl.toolkit.logging.LoggerFactory;
 import org.walkerljl.toolkit.standard.exception.resouce.CannotDestroyResourceException;

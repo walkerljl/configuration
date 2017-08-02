@@ -1,4 +1,4 @@
-package org.walkerljl.toolkit.configuration.jmx;
+package org.walkerljl.configuration.jmx;
 
 import org.walkerljl.toolkit.standard.Resource;
 

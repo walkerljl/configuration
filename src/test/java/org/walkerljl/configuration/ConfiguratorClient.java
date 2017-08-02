@@ -1,4 +1,4 @@
-package org.walkerljl.toolkit.configuration;
+package org.walkerljl.configuration;
 
 /**
  * @author: lijunlin

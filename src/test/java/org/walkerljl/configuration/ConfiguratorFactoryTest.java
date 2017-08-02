@@ -1,6 +1,6 @@
-package org.walkerljl.toolkit.configuration;
+package org.walkerljl.configuration;
 
-import org.walkerljl.toolkit.configuration.impl.readonly.PropertiesConfiguratorProvider;
+import org.walkerljl.configuration.impl.readonly.PropertiesConfiguratorProvider;
 
 /**
  * @author: lijunlin

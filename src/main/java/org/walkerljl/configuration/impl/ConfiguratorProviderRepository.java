@@ -1,10 +1,10 @@
-package org.walkerljl.toolkit.configuration.impl;
+package org.walkerljl.configuration.impl;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.walkerljl.toolkit.configuration.ConfiguratorException;
+import org.walkerljl.configuration.ConfiguratorException;
 
 /**
  * 配置器提供者仓库

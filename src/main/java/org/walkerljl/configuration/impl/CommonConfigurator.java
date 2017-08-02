@@ -1,4 +1,4 @@
-package org.walkerljl.toolkit.configuration.impl;
+package org.walkerljl.configuration.impl;
 
 import java.io.Serializable;
 import java.lang.management.ManagementFactory;
@@ -10,9 +10,9 @@ import java.rmi.registry.LocateRegistry;
 import javax.management.MBeanServer;
 import javax.management.ObjectName;
 
-import org.walkerljl.toolkit.configuration.ConfiguratorException;
-import org.walkerljl.toolkit.configuration.jmx.ConfiguratorMXBean;
-import org.walkerljl.toolkit.configuration.jmx.impl.ConfiguratorMXBeanImpl;
+import org.walkerljl.configuration.jmx.ConfiguratorMXBean;
+import org.walkerljl.configuration.jmx.impl.ConfiguratorMXBeanImpl;
+import org.walkerljl.configuration.ConfiguratorException;
 import org.walkerljl.toolkit.logging.Logger;
 import org.walkerljl.toolkit.logging.LoggerFactory;
 import org.walkerljl.toolkit.standard.exception.AppException;

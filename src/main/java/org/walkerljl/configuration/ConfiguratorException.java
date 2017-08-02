@@ -1,4 +1,4 @@
-package org.walkerljl.toolkit.configuration;
+package org.walkerljl.configuration;
 
 import org.walkerljl.toolkit.standard.exception.AppException;
 import org.walkerljl.toolkit.standard.exception.ErrorCode;

@@ -1,4 +1,4 @@
-package org.walkerljl.toolkit.configuration.impl.readonly;
+package org.walkerljl.configuration.impl.readonly;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -6,8 +6,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-import org.walkerljl.toolkit.configuration.impl.AbstractConfiguratorProvider;
-import org.walkerljl.toolkit.configuration.impl.ConfiguratorProvider;
+import org.walkerljl.configuration.impl.AbstractConfiguratorProvider;
+import org.walkerljl.configuration.impl.ConfiguratorProvider;
 import org.walkerljl.toolkit.lang.StreamUtils;
 import org.walkerljl.toolkit.standard.exception.CannotDestroyResourceException;
 import org.walkerljl.toolkit.standard.exception.CannotInitResourceException;

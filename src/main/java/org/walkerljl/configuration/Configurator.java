@@ -1,4 +1,4 @@
-package org.walkerljl.toolkit.configuration;
+package org.walkerljl.configuration;
 
 import java.util.List;
 import java.util.Map;

@@ -1,39 +1,42 @@
-package org.walkerljl.toolkit.configuration.impl;
+package org.walkerljl.configuration.impl;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.walkerljl.toolkit.configuration.Configurator;
-import org.walkerljl.toolkit.configuration.ConfiguratorException;
-import org.walkerljl.toolkit.standard.exception.AppException;
+import org.walkerljl.configuration.Configurator;
+import org.walkerljl.configuration.ConfiguratorException;
+import org.walkerljl.toolkit.standard.exception.resouce.CannotDestroyResourceException;
+import org.walkerljl.toolkit.standard.exception.resouce.CannotInitResourceException;
 
 /**
+ * RemoteConfigurator
+ *
  * @author: lijunlin
  */
-public class StdConfigurator implements Configurator {
+public class RemoteConfigurator implements Configurator {
 
     private RemotableConfigurator target;
 
-    public StdConfigurator(RemotableConfigurator target) {
+    public RemoteConfigurator(RemotableConfigurator target) {
         this.target = target;
     }
 
     @Override
-    public void init() throws AppException {
+    public void init() throws CannotInitResourceException {
         try {
             target.init();
         } catch (Exception e) {
-            throw new ConfiguratorException(e);
+            throw new CannotInitResourceException(e);
         }
     }
 
     @Override
-    public void destroy() {
+    public void destroy() throws CannotDestroyResourceException {
         try {
             target.destroy();
         } catch (Exception e) {
-            throw new ConfiguratorException(e);
+            throw new CannotDestroyResourceException(e);
         }
     }
 

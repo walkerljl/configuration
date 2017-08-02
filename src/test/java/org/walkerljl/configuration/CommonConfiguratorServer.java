@@ -1,12 +1,12 @@
-package org.walkerljl.toolkit.configuration;
+package org.walkerljl.configuration;
 
 import java.io.InputStream;
 import java.util.Properties;
 
-import org.walkerljl.toolkit.configuration.impl.CommonConfigurator;
-import org.walkerljl.toolkit.configuration.impl.ConfiguratorResources;
-import org.walkerljl.toolkit.configuration.impl.RemotableConfigurator;
-import org.walkerljl.toolkit.configuration.impl.RemoteConfigurator;
+import org.walkerljl.configuration.impl.CommonConfigurator;
+import org.walkerljl.configuration.impl.ConfiguratorResources;
+import org.walkerljl.configuration.impl.RemotableConfigurator;
+import org.walkerljl.configuration.impl.RemoteConfigurator;
 import org.walkerljl.toolkit.lang.PropertiesUtils;
 
 /**

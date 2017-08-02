@@ -1,4 +1,4 @@
-package org.walkerljl.toolkit.configuration.impl;
+package org.walkerljl.configuration.impl;
 
 import java.rmi.RemoteException;
 import java.util.ArrayList;

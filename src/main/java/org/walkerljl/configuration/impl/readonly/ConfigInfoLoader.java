@@ -1,4 +1,4 @@
-package org.walkerljl.toolkit.configuration.impl.readonly;
+package org.walkerljl.configuration.impl.readonly;
 
 import java.util.List;
 

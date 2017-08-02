@@ -1,10 +1,10 @@
-package org.walkerljl.toolkit.configuration;
+package org.walkerljl.configuration;
 
 import java.rmi.Naming;
 import java.rmi.registry.LocateRegistry;
 
-import org.walkerljl.toolkit.configuration.impl.CommonConfigurator;
-import org.walkerljl.toolkit.configuration.impl.ConfiguratorResources;
+import org.walkerljl.configuration.impl.CommonConfigurator;
+import org.walkerljl.configuration.impl.ConfiguratorResources;
 
 /**
  * @author: lijunlin
