@@ -7,16 +7,16 @@
     <groupId>org.walkerljl</groupId>
     <artifactId>configuration</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>configuration-client</module>
         <module>configuration-api</module>
     </modules>
 
     <properties>
-        <toolkit-logging.version>1.0-SNAPSHOT</toolkit-logging.version>
-        <toolkit-lang.version>1.0-SNAPSHOT</toolkit-lang.version>
-        <toolkit-standard.version>1.0-SNAPSHOT</toolkit-standard.version>
+        <toolkit-logging.version>1.0.0-SNAPSHOT</toolkit-logging.version>
+        <toolkit-lang.version>1.0.0-SNAPSHOT</toolkit-lang.version>
+        <toolkit-standard.version>1.0.0-SNAPSHOT</toolkit-standard.version>
         <jdk.version>1.8</jdk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
