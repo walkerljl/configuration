@@ -1,7 +1,7 @@
 package org.walkerljl.configuration.client;
 
 import org.walkerljl.toolkit.standard.exception.AppException;
-import org.walkerljl.toolkit.standard.exception.ErrorCode;
+import org.walkerljl.toolkit.standard.exception.code.ErrorCode;
 
 /**
  * ConfiguratorException
